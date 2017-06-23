@@ -13,6 +13,13 @@
 		00A858221EFCC05E00BAB1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A858201EFCC05E00BAB1E9 /* Main.storyboard */; };
 		00A858241EFCC05E00BAB1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A858231EFCC05E00BAB1E9 /* Assets.xcassets */; };
 		00A858271EFCC05E00BAB1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A858251EFCC05E00BAB1E9 /* LaunchScreen.storyboard */; };
+		00A858361EFCD24B00BAB1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A858351EFCD24B00BAB1E9 /* AppDelegate.m */; };
+		00A858391EFCD24B00BAB1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A858381EFCD24B00BAB1E9 /* main.m */; };
+		00A8583C1EFCD24B00BAB1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8583B1EFCD24B00BAB1E9 /* ViewController.m */; };
+		00A8583E1EFCD24B00BAB1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A8583D1EFCD24B00BAB1E9 /* Assets.xcassets */; };
+		00A858411EFCD24B00BAB1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A8583F1EFCD24B00BAB1E9 /* Main.storyboard */; };
+		4C3371BE80B99E7764C17143 /* libPods-CCTALibMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766619D3B3247914A9522EE /* libPods-CCTALibMac.a */; };
+		4E3C71F257BA6416675C1705 /* libPods-CCTALib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9B7AE51FF1F38FFA9ED947 /* libPods-CCTALib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		00A858231EFCC05E00BAB1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A858261EFCC05E00BAB1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A858281EFCC05E00BAB1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A858321EFCD24B00BAB1E9 /* CCTALibMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTALibMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A858341EFCD24B00BAB1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00A858351EFCD24B00BAB1E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00A858381EFCD24B00BAB1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A8583A1EFCD24B00BAB1E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00A8583B1EFCD24B00BAB1E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00A8583D1EFCD24B00BAB1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A858401EFCD24B00BAB1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A858421EFCD24B00BAB1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFD89AAC631CA8419780BF4 /* Pods-CCTALib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTALib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCTALib/Pods-CCTALib.debug.xcconfig"; sourceTree = "<group>"; };
+		5766619D3B3247914A9522EE /* libPods-CCTALibMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCTALibMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C57DFF83AED0F9789A84607 /* Pods-CCTALib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTALib.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCTALib/Pods-CCTALib.release.xcconfig"; sourceTree = "<group>"; };
+		D837256C1BEAB9F0217793F9 /* Pods-CCTALibMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTALibMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCTALibMac/Pods-CCTALibMac.release.xcconfig"; sourceTree = "<group>"; };
+		DA9B7AE51FF1F38FFA9ED947 /* libPods-CCTALib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCTALib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F256B2E486DDA93CA9A9902A /* Pods-CCTALibMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTALibMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCTALibMac/Pods-CCTALibMac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3C71F257BA6416675C1705 /* libPods-CCTALib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8582F1EFCD24B00BAB1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3371BE80B99E7764C17143 /* libPods-CCTALibMac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				00A858161EFCC05E00BAB1E9 /* CCTALib */,
+				00A858331EFCD24B00BAB1E9 /* CCTALibMac */,
 				00A858151EFCC05E00BAB1E9 /* Products */,
+				F3684C3CCA41EF398F25DBCE /* Pods */,
+				3A3E2FFAFA4BE4E9C535D4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				00A858141EFCC05E00BAB1E9 /* CCTALib.app */,
+				00A858321EFCD24B00BAB1E9 /* CCTALibMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +114,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		00A858331EFCD24B00BAB1E9 /* CCTALibMac */ = {
+			isa = PBXGroup;
+			children = (
+				00A858341EFCD24B00BAB1E9 /* AppDelegate.h */,
+				00A858351EFCD24B00BAB1E9 /* AppDelegate.m */,
+				00A8583A1EFCD24B00BAB1E9 /* ViewController.h */,
+				00A8583B1EFCD24B00BAB1E9 /* ViewController.m */,
+				00A8583D1EFCD24B00BAB1E9 /* Assets.xcassets */,
+				00A8583F1EFCD24B00BAB1E9 /* Main.storyboard */,
+				00A858421EFCD24B00BAB1E9 /* Info.plist */,
+				00A858371EFCD24B00BAB1E9 /* Supporting Files */,
+			);
+			path = CCTALibMac;
+			sourceTree = "<group>";
+		};
+		00A858371EFCD24B00BAB1E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A858381EFCD24B00BAB1E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A3E2FFAFA4BE4E9C535D4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B7AE51FF1F38FFA9ED947 /* libPods-CCTALib.a */,
+				5766619D3B3247914A9522EE /* libPods-CCTALibMac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3684C3CCA41EF398F25DBCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD89AAC631CA8419780BF4 /* Pods-CCTALib.debug.xcconfig */,
+				9C57DFF83AED0F9789A84607 /* Pods-CCTALib.release.xcconfig */,
+				F256B2E486DDA93CA9A9902A /* Pods-CCTALibMac.debug.xcconfig */,
+				D837256C1BEAB9F0217793F9 /* Pods-CCTALibMac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A8582B1EFCC05E00BAB1E9 /* Build configuration list for PBXNativeTarget "CCTALib" */;
 			buildPhases = (
+				32CF28E50CAD598185B2A5B4 /* [CP] Check Pods Manifest.lock */,
 				00A858101EFCC05E00BAB1E9 /* Sources */,
 				00A858111EFCC05E00BAB1E9 /* Frameworks */,
 				00A858121EFCC05E00BAB1E9 /* Resources */,
+				55FA51E53FBF0D19E66EBB40 /* [CP] Embed Pods Frameworks */,
+				F0A99ACF852A4790F47219F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +178,26 @@
 			name = CCTALib;
 			productName = CCTALib;
 			productReference = 00A858141EFCC05E00BAB1E9 /* CCTALib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A858311EFCD24B00BAB1E9 /* CCTALibMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A858451EFCD24B00BAB1E9 /* Build configuration list for PBXNativeTarget "CCTALibMac" */;
+			buildPhases = (
+				56A0EC361F75B809F45D9D74 /* [CP] Check Pods Manifest.lock */,
+				00A8582E1EFCD24B00BAB1E9 /* Sources */,
+				00A8582F1EFCD24B00BAB1E9 /* Frameworks */,
+				00A858301EFCD24B00BAB1E9 /* Resources */,
+				C5A0C4762B0B477204339403 /* [CP] Embed Pods Frameworks */,
+				0A67BA2E827E49C827B29D96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTALibMac;
+			productName = CCTALibMac;
+			productReference = 00A858321EFCD24B00BAB1E9 /* CCTALibMac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,6 +210,10 @@
 				ORGANIZATIONNAME = "cc | ccworld1000@gmail.com";
 				TargetAttributes = {
 					00A858131EFCC05E00BAB1E9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					00A858311EFCD24B00BAB1E9 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -128,6 +233,7 @@
 			projectRoot = "";
 			targets = (
 				00A858131EFCC05E00BAB1E9 /* CCTALib */,
+				00A858311EFCD24B00BAB1E9 /* CCTALibMac */,
 			);
 		};
 /* End PBXProject section */
@@ -143,7 +249,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00A858301EFCD24B00BAB1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8583E1EFCD24B00BAB1E9 /* Assets.xcassets in Resources */,
+				00A858411EFCD24B00BAB1E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A67BA2E827E49C827B29D96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCTALibMac/Pods-CCTALibMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32CF28E50CAD598185B2A5B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55FA51E53FBF0D19E66EBB40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCTALib/Pods-CCTALib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A0EC361F75B809F45D9D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A0C4762B0B477204339403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCTALibMac/Pods-CCTALibMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A99ACF852A4790F47219F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCTALib/Pods-CCTALib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00A858101EFCC05E00BAB1E9 /* Sources */ = {
@@ -153,6 +361,16 @@
 				00A8581F1EFCC05E00BAB1E9 /* ViewController.m in Sources */,
 				00A8581C1EFCC05E00BAB1E9 /* AppDelegate.m in Sources */,
 				00A858191EFCC05E00BAB1E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8582E1EFCD24B00BAB1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8583C1EFCD24B00BAB1E9 /* ViewController.m in Sources */,
+				00A858391EFCD24B00BAB1E9 /* main.m in Sources */,
+				00A858361EFCD24B00BAB1E9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +391,14 @@
 				00A858261EFCC05E00BAB1E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00A8583F1EFCD24B00BAB1E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A858401EFCD24B00BAB1E9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +498,7 @@
 		};
 		00A8582C1EFCC05E00BAB1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFD89AAC631CA8419780BF4 /* Pods-CCTALib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCTALib/Info.plist;
@@ -283,12 +510,45 @@
 		};
 		00A8582D1EFCC05E00BAB1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C57DFF83AED0F9789A84607 /* Pods-CCTALib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCTALib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCTALib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A858431EFCD24B00BAB1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F256B2E486DDA93CA9A9902A /* Pods-CCTALibMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCTALibMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCTALibMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00A858441EFCD24B00BAB1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D837256C1BEAB9F0217793F9 /* Pods-CCTALibMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCTALibMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCTALibMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -309,6 +569,15 @@
 			buildConfigurations = (
 				00A8582C1EFCC05E00BAB1E9 /* Debug */,
 				00A8582D1EFCC05E00BAB1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A858451EFCD24B00BAB1E9 /* Build configuration list for PBXNativeTarget "CCTALibMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A858431EFCD24B00BAB1E9 /* Debug */,
+				00A858441EFCD24B00BAB1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -6,6 +6,16 @@ target 'CCTALib' do
   # use_frameworks!
 
   # Pods for CCTALib
+  pod 'CCStat'
   pod 'CCTALib', path: ".."
 
+end
+
+target 'CCTALibMac' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for CCTALibMac
+  pod 'CCTALib', path: ".."
+  
 end
