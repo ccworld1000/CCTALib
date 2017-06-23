@@ -1,0 +1,9 @@
+ 
+========================================
+Prog      = /Users/macta-lib-work/temp/unix/ta-lib/c/make/cmd/linux/g++  make >"/Users/macta-lib-work/log/unix_ta_lib_gcc_cmd.txt"
+ExitValue = 1
+SignalNum = 0
+DumpCore  = 0
+
+========================================
+========================================
