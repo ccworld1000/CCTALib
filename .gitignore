@@ -1,6 +1,5 @@
 *.db-shm
 *.db-wal
-.swift-version
 CCTALib.podspec
 Pods
 Podfile.lock
