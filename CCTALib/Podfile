@@ -6,7 +6,6 @@ target 'CCTALib' do
   # use_frameworks!
 
   # Pods for CCTALib
-  pod 'CCStat'
   pod 'CCTALib', path: ".."
 
 end
