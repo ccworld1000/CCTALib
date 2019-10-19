@@ -6,7 +6,7 @@ target 'CCTALib' do
   # use_frameworks!
 
   # Pods for CCTALib
-  pod 'CCTALib', path: ".."
+  pod 'CCTALib'
 
 end
 
@@ -15,6 +15,6 @@ target 'CCTALibMac' do
   # use_frameworks!
 
   # Pods for CCTALibMac
-  pod 'CCTALib', path: ".."
+  pod 'CCTALib'
   
 end
